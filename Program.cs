@@ -13,10 +13,9 @@
             Console.WriteLine( $"Введите ко-во повторений для вывода сообщения: " );
             numberRepetitions = Convert.ToInt32( Console.ReadLine() );
 
-            while( numberRepetitions > 0 )
+            for (int i = numberRepetitions; i > 0; i--)
             {
                 Console.WriteLine(masege);
-                numberRepetitions--;
             }
         }
     }
